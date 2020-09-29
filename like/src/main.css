@@ -20,5 +20,10 @@ body {
   color: rgb(82, 80, 80);
   background-color: #4caf50;
   border-radius: 15px;
-  box-shadow: 9px 8px rgb(90, 89, 89);
+  box-shadow: 8px 8px rgb(90, 89, 89);
+  border: none;
+}
+
+.likeButton:active {
+  box-shadow: none;
 }
