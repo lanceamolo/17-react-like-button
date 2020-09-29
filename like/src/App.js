@@ -12,7 +12,7 @@ const likes = ["likes", "like"]
 
 function App() {
   // The count on the button should increase upon click
-  const [likeNum, addLike] = useState(true)
+  const [likeNum, addLike] = useState(0)
 
   // increment likeNums by 1 per click
   function handleClick() {
